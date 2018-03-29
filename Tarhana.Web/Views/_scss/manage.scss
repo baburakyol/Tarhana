@@ -1,0 +1,243 @@
+﻿$manage-left-column-width: 250px;
+$manage-right-column-width: 253px;
+
+.manage-nav {
+    margin: 7px;
+}
+
+.manage-wrapper {
+    margin-left: 0px;
+    margin-right: 0;
+
+    .manage-left {
+        float: left;
+        width: $manage-left-column-width;
+
+        .panel {
+            border-radius: 2px;
+
+            .panel-body {
+                padding: 0;
+            }
+        }
+
+        .list-group-item {
+            padding: 10px;
+        }
+    }
+
+    .manage-right {
+        float: left;
+        width: Calc( #{100%} #{"-"} #{$manage-right-column-width});
+        min-height: Calc(#{100vh} #{"-"} 400px);
+        margin-left: 2px;
+        min-height: 600px;
+        /*background-color: #fff;*/
+        padding-bottom: 10px;
+        margin-top: 1px;
+        border-radius: 2px;
+
+        .input {
+            border-radius: 2px !important;
+        }
+        //Aktif
+        .classified-panel {
+            margin-bottom: 10px;
+
+            .panel-heading {
+                min-height: 47px;
+            }
+
+            .panel-body {
+                padding: 6px;
+            }
+
+            .image-col {
+                float: left;
+                width: 100px;
+                position: relative;
+
+                .thumb-text-over {
+                    position: absolute;
+                    width: 100%;
+                    margin: 0;
+                    font-size: 9px;
+                    font-family: sans-serif;
+                    text-shadow: 0px 0px 3px #000;
+                    padding: 0.3em;
+                    color: #fff;
+                    background-color: rgba(0, 0, 0, 0.4);
+                    font-weight: bold;
+                    bottom: 0;
+                    line-height: 11px;
+                }
+            }
+
+            .toolbar {
+                .label {
+                    min-width: 54px;
+                    text-align: right;
+                    /* color: rgba(0, 0, 0, 0.72); */
+                    display: inline-block;
+                    line-height: 18px;
+                    vertical-align: middle;
+                    /* background-color: #a9d4cb; */
+                    font-size: 11px;
+                    padding: 3px 11px;
+                    cursor: pointer;
+
+                    i {
+                        float: left !important;
+                        font-size: 13px;
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+
+        .message-list {
+            margin-top: 6px;
+
+            .panel {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .aktif-ilan-list {
+        .panel-heading {
+            vertical-align: middle;
+            line-height: 25px;
+            min-height: 47px;
+
+            a {
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+        }
+
+
+
+        .panel-body {
+            padding: 6px;
+        }
+
+        .toolbar {
+            span.badge {
+                font-size: 13px;
+                vertical-align: middle;
+                min-width: 50px;
+                padding: 2px 0;
+
+                i {
+                    font-size: 15px;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+
+    .user-info {
+        .card-header {
+            padding: 8px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .card-body {
+            padding: 5px;
+        }
+
+        .card-footer {
+            padding: 5px;
+
+            .list-pagination {
+                margin-bottom: 0;
+            }
+        }
+
+
+
+        .mail-valid-icon {
+            color: #fff;
+            background-color: #008804;
+            font-size: 12px;
+        }
+    }
+}
+
+
+.ilanlarim-wrapper {
+    .aktif-ilan-list, pasif-ilan-list {
+        .btn {
+            margin: 0 3px;
+            padding: 5px 12px !important;
+            border-radius: 2px;
+            min-width: 80px;
+            font-size: 13px;
+
+            i {
+                padding-right: 6px;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .card-header {
+        padding: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .card-body {
+        padding: 5px;
+    }
+
+    .card-footer {
+        padding: 5px;
+
+        .list-pagination {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.fav-grup {
+    border-radius: 0px;
+    position: relative;
+
+    .fav-folder-edit {
+        top: 11px;
+        right: 26px;
+    }
+
+    .fav-folder-remove {
+        top: 11px;
+        right: 0px;
+    }
+
+    .btn {
+        display: none !important;
+        position: absolute;
+        padding: 1px 6px;
+        border-radius: 2px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-size: 11px;
+    }
+
+    .list-group-item {
+        border-radius: 0px;
+    }
+}
+
+.fav-grup:hover {
+    color: #555555;
+    background-color: #f5f5f5;
+
+    .btn {
+        display: block !important;
+    }
+}

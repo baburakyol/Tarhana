@@ -1,0 +1,11 @@
+C:\MngMaster\Tarhana\Tarhana.Web\bin\Debug\netcoreapp2.0\Tarhana.Web.deps.json
+C:\MngMaster\Tarhana\Tarhana.Web\bin\Debug\netcoreapp2.0\Tarhana.Web.runtimeconfig.json
+C:\MngMaster\Tarhana\Tarhana.Web\bin\Debug\netcoreapp2.0\Tarhana.Web.runtimeconfig.dev.json
+C:\MngMaster\Tarhana\Tarhana.Web\bin\Debug\netcoreapp2.0\Tarhana.Web.dll
+C:\MngMaster\Tarhana\Tarhana.Web\bin\Debug\netcoreapp2.0\Tarhana.Web.pdb
+C:\MngMaster\Tarhana\Tarhana.Web\obj\Debug\netcoreapp2.0\Tarhana.Web.csproj.CoreCompileInputs.cache
+C:\MngMaster\Tarhana\Tarhana.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\MngMaster\Tarhana\Tarhana.Web\obj\Debug\netcoreapp2.0\Tarhana.Web.AssemblyInfoInputs.cache
+C:\MngMaster\Tarhana\Tarhana.Web\obj\Debug\netcoreapp2.0\Tarhana.Web.AssemblyInfo.cs
+C:\MngMaster\Tarhana\Tarhana.Web\obj\Debug\netcoreapp2.0\Tarhana.Web.dll
+C:\MngMaster\Tarhana\Tarhana.Web\obj\Debug\netcoreapp2.0\Tarhana.Web.pdb

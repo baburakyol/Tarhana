@@ -1,0 +1,21 @@
+// Override Boostrap variables
+@import "_bootstrap-variables.scss";
+
+// Import Bootstrap source files
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Override core variables
+@import "_core-variables.scss";
+
+// Import core styles
+@import "core/core.scss";
+
+// Custom styles
+@import "_custom.scss";
+@import "home.scss";
+@import "list.scss";
+@import "view.scss";
+@import "edit.scss";
+@import "harita.scss";
+@import "manage.scss";
+@import "footer.scss";

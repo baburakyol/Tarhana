@@ -1,0 +1,133 @@
+﻿.home-card {
+    margin: 5px;
+}
+
+.navbar-brand {
+    img{
+        width:250px;
+    }
+}
+
+.homepage-panel-sm {
+    width: 133px;
+    margin: 5px;
+    height: 80px;
+    text-align: center;
+    min-height: 80px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 75px !important;
+    width: 100px !important;
+    margin: 7px 7px 15px 7px;
+
+    .thumb {
+        height: 80px;
+        line-height: 80px;
+        vertical-align: middle;
+
+        img {
+            min-height: 10px;
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+
+    .desc {
+        /*position: absolute;*/
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.49);
+        color: #fff;
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 11px;
+        text-transform: capitalize;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+}
+
+
+// Ana Sayfa Sol
+.home-left {
+    float: left;
+    width: 200px;
+    display: inline-block;
+    min-height: Calc(#{100vh} - #{500px});
+    /*border: 1px solid red;*/
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 5px 0 0 0;
+
+    ul {
+        list-style-type: none;
+        padding-left: 5px;
+
+        li {
+            a {
+                color: #1d2129;
+                text-decoration: none;
+            }
+        }
+
+        li:first-child > a {
+            border-bottom: 1px solid #dddfe2 !important;
+            font-weight: bold;
+        }
+
+        .category-a {
+            -webkit-font-smoothing: subpixel-antialiased;
+            position: relative;
+            z-index: 1;
+            border: 1px solid transparent;
+            border-radius: 2px;
+            display: block;
+            font-size: 15px;
+            // İlk Kategori
+            > a {
+                > i {
+                    border-radius: 50%;
+                    padding: 5px;
+                    border: 1px solid #ccc;
+                    margin-right: 5px;
+                    font-size: 15px;
+                    background-color: #2196f3;
+                    color: #fff;
+                }
+            }
+
+            a {
+                margin: 0px;
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .category-a.b {
+            padding-left: 8px;
+        }
+
+        .category-a:hover {
+            /*background-color: #f6f7f9;*/
+        }
+
+        .category-a:hover {
+            background-color: #f6f7f9;
+            border: 1px solid #dddfe2;
+            border-radius: 2px;
+            display: block;
+        }
+    }
+}
+// Ana Sayfa Sağ Bölüm
+.home-right {
+    float: left;
+    display: inline-block;
+    margin: 5px;
+    /*border: 1px solid yellow;*/
+    padding-left: 1px;
+    padding-right: 1px;
+    width: Calc(#{100%} - #{210px});
+}
